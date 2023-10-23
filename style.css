@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0, 6), rgba(0, 0, 0, 0, 6));
+    background-image: url('chintu.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+/* .nav-logo img{
+    width: 160px;
+    padding-left: 20px;
+} */
+.nav-link {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 40px;
+    padding: 20px 0;
+}
+
+.nav-link .btn {
+    background: #fff;
+    color: #000;
+    padding: 8px 30px;
+    border-radius: 4px;
+}
+
+.content {
+    margin: 180px;
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 60px;
+}
+.search-box{
+    background: #fff;
+    width: fit-content;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 18px,20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.search-box input{
+    background: transparent;
+    width: 600px;
+    border: 0;
+    outline: none;  
+}
+.search-box button{
+    background: transparent;
+    border: 0;
+    cursor:pointer;
+
+}
+.search-box button i{
+    width: 22px;
+}
+@media(max-width:700px){
+    .container {
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0, 6), rgba(0, 0, 0, 0, 6));
+        background-image: url('ront.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 0 8%;
+    }
+    .nav-link {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 13px;
+    }
+   .content{
+    display:contents;
+   }
+    .content h1 {
+        font-size: 40px;
+        margin-top: 70%;
+    }
+    .search-box input{
+        width: 230px;
+    }
+    .search-box{
+        padding: 10px 20px;
+    }
+    
+   
+}
